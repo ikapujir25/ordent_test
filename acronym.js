@@ -1,11 +1,4 @@
 function generateAcronym(name) {
-  /**
-   * Generates an acronym for a given name.
-   *
-   * @param {string} name - Full name of a person.
-   * @returns {string} - Generated acronym in uppercase.
-   */
-
   // Split the name into parts by spaces and dashes
   const nameParts = name.trim().split(/[- ]+/);
 
